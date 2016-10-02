@@ -1,0 +1,10 @@
+# Default all files to end in Line Feeds (LF)
+# Most of the files in this repo are Unix-y config files
+
+*	text eol=lf
+
+# Except CMD files used to install configs on Windows.
+# They should always end in Carriage Return + Line Feeds (CRLF)
+
+*.cmd	text eol=crlf
+
