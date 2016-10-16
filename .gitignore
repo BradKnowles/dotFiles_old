@@ -9,6 +9,7 @@
 
 # Include these content files, using gitignore exclude syntax
 !git/.gitconfig
+!SlickRun/*
 !*.cmd
 !/*.md
 
