@@ -1,8 +1,16 @@
 # This .gitignore is non-standard, it is a white list.
 # Files must be explicitly added as exclusions to be committed.
 
+# Ignore all files in repo root
+*.*
+
 # Ignore all directories, and all sub-directories, and their contents
 */*
+
+# Include these content files, using gitignore exclude syntax
+!git/.gitconfig
+!*.cmd
+!/*.md
 
 # Include git configuration files
 !/.gitignore

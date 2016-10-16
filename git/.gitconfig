@@ -1,0 +1,53 @@
+[user]
+	name = Brad Knowles
+	email = code@bradknowles.com
+[diff]
+	tool = bc
+[difftool "bc"]
+	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+[difftool]
+	prompt = false
+[merge]
+	tool = bc
+[mergetool "bc"]
+	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+[mergetool]
+	prompt = false
+[alias]
+	aa = add --all
+	af = add --force
+	ai = add --interactive
+	au = add --update
+	br = branch
+	cl = clean -dn
+	co = checkout
+	cob = checkout -b
+	com = checkout master
+	cm = commit
+	cma = commit --amend
+	cmm = commit --message
+	dc = checkout --
+	dt = difftool
+	ec = config --global --edit
+	f = fetch --verbose
+	la = config --get-regexp alias
+	lns = log --name-status
+	l = "!f() { git log -$1; }; f"
+	lol = log --oneline
+	ma = merge --abort
+	mt = mergetool
+	mnff = merge --no-ff
+	mpr = merge --no-ff --no-commit
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase --interactive
+	rv = revert
+	rva = revert --abort
+	rvc = revert --continue
+	s = status --untracked-file --short --branch
+	stl = stash list
+	sts = "!f() { git show stash@{$1} --name-status; }; f"
+	us = reset HEAD
+[push]
+	default = simple
