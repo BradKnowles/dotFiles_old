@@ -1,0 +1,38 @@
+﻿[1p]
+Filename="C:\Users\Brad\AppData\Local\1Password\app\6\AgileBits.OnePassword.Desktop.exe"
+GUID={0D223738-9947-4F3A-897D-D9A6CC582430}
+StartMode=5
+UseCount=12
+[itunes]
+Filename="C:\Program Files\iTunes\iTunes.exe"
+GUID={057C4D94-2C12-47E8-AE1D-933706C1B61B}
+StartMode=5
+UseCount=18
+[mail]
+Filename="C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe"
+Path="C:\Program Files (x86)\Mozilla Thunderbird"
+GUID={18654C61-3153-47C6-9D93-6907768B240D}
+StartMode=1
+UseCount=44
+[vs15]
+Filename="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
+Path="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\"
+GUID={B5752461-F11C-4F87-BC25-7E89BC0816DA}
+StartMode=1
+[vs15a]
+Filename="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
+Path="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\"
+GUID={51136B4D-9830-4DBA-9DB2-9F2FDB011E2E}
+StartMode=1
+UseRunAs=-1
+[web]
+Filename="C:\Program Files\Mozilla Firefox\firefox.exe"
+Path="C:\Program Files\Mozilla Firefox"
+GUID={6ED1B9F4-4FE5-422B-B229-1B9296790D6A}
+StartMode=5
+UseCount=38
+[wmail]
+Filename="http://mail.bradknowles.com/"
+GUID={D2018B81-BDEF-4269-94D2-920CC2F44B6B}
+StartMode=5
+UseCount=4

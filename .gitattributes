@@ -7,4 +7,5 @@
 # They should always end in Carriage Return + Line Feeds (CRLF)
 
 *.cmd	text eol=crlf
-
+*.ini	text eol=crlf
+*.srl	text eol=crlf
