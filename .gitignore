@@ -8,10 +8,11 @@
 */*
 
 # Include these content files, using gitignore exclude syntax
-!git/.gitconfig
-!SlickRun/*
-!*.cmd
+!/*.cmd
 !/*.md
+!git/.gitconfig
+!SlickRun/SlickRun.ini
+!SlickRun/SlickRun.srl
 
 # Include git configuration files
 !/.gitignore
