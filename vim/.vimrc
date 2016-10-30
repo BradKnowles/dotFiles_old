@@ -18,3 +18,9 @@ set backspace=indent,eol,start
 " Turn on file type detection
 filetype plugin indent on
 
+" Always have a status bar
+set laststatus=2
+
+" Turn on cursor position information in the status bar
+set ruler
+

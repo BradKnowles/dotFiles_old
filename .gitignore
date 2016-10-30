@@ -14,6 +14,7 @@
 !SlickRun/SlickRun.ini
 !SlickRun/SlickRun.srl
 !vim/.vimrc
+!vim/.gvimrc
 
 # Include git configuration files
 !/.gitignore
