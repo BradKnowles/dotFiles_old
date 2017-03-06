@@ -11,10 +11,12 @@
 !/*.cmd
 !/*.md
 !git/.gitconfig
-!SlickRun/SlickRun.ini
-!SlickRun/SlickRun.srl
 !vim/.vimrc
 !vim/.gvimrc
+!SlickRun/SlickRun.ini
+!SlickRun/SlickRun.srl
+!SlickRun/Dependencies/
+!SlickRun/Dependencies/*.*
 
 # Include git configuration files
 !/.gitignore
