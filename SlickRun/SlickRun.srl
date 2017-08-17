@@ -1,25 +1,68 @@
-﻿[1p]
+﻿[~]
+Filename="%HOMEDRIVE%%HOMEPATH%"
+GUID={4926B9B1-BA78-4AFC-91F9-39C2F1C270B4}
+StartMode=1
+UseCount=3
+[1p]
 Filename="C:\Users\Brad\AppData\Local\1Password\app\6\AgileBits.OnePassword.Desktop.exe"
 GUID={0D223738-9947-4F3A-897D-D9A6CC582430}
 StartMode=5
-UseCount=75
+UseCount=113
+[bash]
+Filename="C:\Windows\System32\bash.exe"
+Params="~"
+GUID={ED066BD0-F091-43E4-9FC1-268A0FE47341}
+StartMode=1
+UseCount=15
+[cmd]
+Filename="D:\Users\Brad\bin\cmder\Cmder.exe"
+GUID={17431AB2-1861-4BDB-AAAE-96B28966F255}
+StartMode=1
+UseCount=10
+[dl]
+Filename="%HOMEDRIVE%%HOMEPATH%\Downloads"
+GUID={E09243A8-18DF-4E0D-9EF5-896A09527664}
+StartMode=1
+UseCount=4
+[dnrt]
+Filename="C:\Program Files\dotnet\shared\Microsoft.NETCore.App"
+GUID={36BCA2CA-A553-49C2-87D9-1527B765DD89}
+StartMode=1
+UseCount=4
+[dnsdk]
+Filename="C:\Program Files\dotnet\sdk\"
+GUID={0C28CCDC-8C03-4E46-9B58-482CFAA37F5F}
+StartMode=1
+UseCount=10
+[docs]
+Filename="%HOMEDRIVE%%HOMEPATH%\Documents"
+GUID={FE3D943D-5B23-4BF8-9E68-9CB6B10152B9}
+StartMode=1
+UseCount=2
+[hosts]
+Filename="C:\Program Files (x86)\Vim\vim80\gvim.exe"
+Params="C:\Windows\System32\drivers\etc\hosts"
+GUID={79EAEEED-CD05-402E-B4D0-5CE044CFF153}
+StartMode=1
+UseRunAs=-1
+UseCount=3
 [itunes]
 Filename="C:\Program Files\iTunes\iTunes.exe"
 GUID={057C4D94-2C12-47E8-AE1D-933706C1B61B}
 StartMode=5
-UseCount=82
+UseCount=132
 [mail]
 Filename="C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe"
 Path="C:\Program Files (x86)\Mozilla Thunderbird"
 GUID={18654C61-3153-47C6-9D93-6907768B240D}
 StartMode=1
-UseCount=173
+UseCount=330
 [mute]
 Filename="nircmdc"
 Params="mutesysvolume 2"
 GUID={092BC075-E9D1-4C3F-894B-31444E9BFC2C}
 StartMode=7
-UseCount=21
+UseCount=78
 [pbl]
 Filename="%WINDIR%\System32\powercfg.exe"
 Params="/s 381b4222-f694-41f0-9685-ff5bb260df2e"
@@ -33,14 +76,20 @@ Params="/s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
 Notes="Change power scheme to High Performance"
 GUID={30ED8CCA-1316-4F47-B49E-D6F7F9C62A2F}
 StartMode=1
-UseCount=34
+UseCount=47
+[pos]
+Filename="@SETPOS@"
+Params="835,551,250"
+Notes="Move SlickRun to the x,y coordinates in the Parameters field, with width z"
+GUID={1358094C-BD1C-4148-B7DD-7BD6A027FF7C}
+StartMode=1
 [pps]
 Filename="%WINDIR%\System32\powercfg.exe"
 Params="/s a1841308-3541-4fab-bc81-f71556f20b4a"
 Notes="Change power scheme to Power Saver"
 GUID={9C2DEDF0-D768-407F-81FA-083D1F0218CF}
 StartMode=1
-UseCount=22
+UseCount=27
 [rs]
 Filename="shutdown"
 Params="/r"
@@ -51,50 +100,17 @@ Filename="shutdown"
 Params="/s /t 0"
 GUID={DA2B3A18-2CAD-487B-9780-A007F0B23AF8}
 StartMode=1
-UseCount=7
+UseCount=10
 [vb]
 Filename="C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
 Path="C:\Program Files\Oracle\VirtualBox\"
 GUID={C55D223C-2CEE-4F98-A47D-EC77EF049695}
 StartMode=1
-UseCount=12
-[vol0]
-Filename="nircmdc"
-Params="setsysvolume 0"
-GUID={4B1F1B05-0DE1-467B-B72A-51F2FE416645}
-StartMode=1
-UseCount=1
-[vol100]
-Filename="nircmdc"
-Params="setsysvolume 65535"
-GUID={A8B1E8E4-BD87-48AC-BBDE-BBF5237D5027}
-StartMode=1
-[vol25]
-Filename="nircmdc"
-Params="setsysvolume 16384"
-GUID={D27828FC-D9E1-46D2-A54B-6681B8DFAC15}
-StartMode=1
-UseCount=1
-[vol50]
-Filename="nircmdc"
-Params="setsysvolume 32768"
-GUID={FAF9FCAF-B17C-4E0F-8BE6-8EB606742C90}
-StartMode=1
-[vol75]
-Filename="nircmdc"
-Params="setsysvolume 49152"
-GUID={00457E9F-C2D1-4B23-A061-C591768091FB}
-StartMode=1
-[vold]
-Filename="nircmdc"
-Params="changesysvolume -6554"
-GUID={1C315E09-931A-45DF-9730-B5387A25CFE1}
-StartMode=1
-UseCount=2
-[volu]
-Filename="nircmdc"
-Params="changesysvolume 6554"
-GUID={901B7628-FB56-42D5-B868-589E86DCB3E1}
+UseCount=15
+[vol]
+Filename="setvol"
+Params="$I$"
+GUID={A8EA4069-579A-434E-B23D-C5C76F5027EF}
 StartMode=1
 UseCount=2
 [vs15]
@@ -109,19 +125,35 @@ Path="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\"
 GUID={51136B4D-9830-4DBA-9DB2-9F2FDB011E2E}
 StartMode=1
 UseRunAs=-1
+[vs17]
+Filename="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe"
+Path="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\"
+GUID={0DF0A2B6-F758-42D9-930F-4C6FDEADEB6A}
+StartMode=1
+UseCount=3
 [web]
 Filename="C:\Program Files\Mozilla Firefox\firefox.exe"
 Path="C:\Program Files\Mozilla Firefox"
 GUID={6ED1B9F4-4FE5-422B-B229-1B9296790D6A}
 StartMode=5
-UseCount=176
+UseCount=308
+[wfb]
+Filename="https://www.facebook.com/"
+GUID={4A14CA65-6C9E-429E-B0FB-041440E324FB}
+StartMode=1
+UseCount=1
 [wmail]
 Filename="http://mail.bradknowles.com/"
 GUID={D2018B81-BDEF-4269-94D2-920CC2F44B6B}
 StartMode=5
-UseCount=11
+UseCount=61
+[wtw]
+Filename="https://twitter.com"
+GUID={23994777-602B-481E-B318-195D5672C7E6}
+StartMode=1
+UseCount=3
 [wvw]
 Filename="https://www.pnc.com/en/personal-banking/virtual-wallet-overview.html"
 GUID={F285266B-E987-4E3C-80E6-BCB91569F645}
 StartMode=1
-UseCount=8
+UseCount=48

@@ -6,6 +6,7 @@
 # Except CMD files used to install configs on Windows.
 # They should always end in Carriage Return + Line Feeds (CRLF)
 
+*.bat	text eol=crlf
 *.cmd	text eol=crlf
 *.ini	text eol=crlf
 *.srl	text eol=crlf
