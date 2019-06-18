@@ -14,10 +14,12 @@
 [mergetool]
 	prompt = false
 [alias]
-	aa = add --all
+	aa = add --all --verbose
 	af = add --force
 	ai = add --interactive
-	au = add --update
+	au = add --update --verbose
+	hide = update-index --assume-unchanged
+	unhide = update-index --no-assume-unchanged
 	br = branch
 	cl = clean -dn
 	co = checkout
@@ -30,9 +32,11 @@
 	dt = difftool
 	ec = config --global --edit
 	f = fetch --verbose
-	la = config --get-regexp alias
-	lns = log --name-status
+	hidden =  "!f(){ git -C \"$GIT_PREFIX\" ls-files -v \"$@\" | grep \"^[a-z]\";}; f"
 	l = "!f() { git log -$1; }; f"
+	la = config --get-regexp alias
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lns = log --name-status
 	lol = log --oneline
 	ma = merge --abort
 	mt = mergetool
@@ -46,7 +50,7 @@
 	rva = revert --abort
 	rvc = revert --continue
 	s = status --untracked-file --short --branch
-	stl = stash list
+	stl = stash list --format='%gd (%ad): %gs'
 	sts = "!f() { git show stash@{$1} --name-status; }; f"
 	us = reset HEAD
 [push]
